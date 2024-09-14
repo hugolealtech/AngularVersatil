@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
@@ -36,4 +37,11 @@ main{
 ul button{
 
     display: flex;
+}
+
+#resultado{
+
+    margin-top: 20px;
+    font-weight: bold;
+
 }
