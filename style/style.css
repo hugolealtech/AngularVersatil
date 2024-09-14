@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+
+    --cor1:rgba(134, 190, 211, 0.39);
+    --cor2:rgb(25,212,0);
+    --cor3:rgb(100,140,255);
+    --cor4:rgb(11,55,200);
+}
+
+header{
+
+    background-color: var(--cor3);
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center   
+}
+
+
+main{
+
+    background-color: var(--cor1);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+ul button{
+
+    display: flex;
+}
