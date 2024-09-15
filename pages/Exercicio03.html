@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio03</title>
+    <link rel="stylesheet" href="/AngularVersatil/style/style.css">
+</head>
+<body>
+    <header><H1>ATIVIDADE 03</H1></header>
+    <main>
+
+        <h1>Quiz de JavaScript</h1>
+
+        <form id="quizForm">
+
+            <div class="pergunta">
+
+                <p>1. Qual a linguagem usada para criar interatividade em páginas da Web </p>
+                <input type="radio" name="p1" value="HTML">HTML<br>
+                <input type="radio" name="p1" value="CSS">CSS<br>
+                <input type="radio" name="p1" value="JavaScript">JavaScript<br>
+
+            </div>
+
+            <div class="pergunta">
+
+                <p>2. Qual tag é usada para criar um parágrafo em HTML</p>
+                <input type="radio" name="p2" value="div">div<br>
+                <input type="radio" name="p2" value="p">p<br>
+                <input type="radio" name="p2" value="h1">h1<br>
+
+            </div>
+
+            <div class="pergunta">
+
+                <p>3. Qual propriedade CSS é usada para mudar a cor de fundo</p>
+                <input type="radio" name="p3" value="color">color<br>
+                <input type="radio" name="p3" value="back-ground-color">back-ground-color<br>
+                <input type="radio" name="p3" value="font-size">font-size<br>
+
+            </div>
+
+            <button type="button" onclick="verificaRespostas()">Enviar Respostas</button>
+            
+        </form>
+
+        <div id="resultado" class="resultado"></div>
+
+
+    </main>
+   
+</body>
+ 
+    <script src="/AngularVersatil/js/Exercicio03.js"></script>
+
+</html>
