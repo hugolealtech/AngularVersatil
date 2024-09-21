@@ -1,0 +1,14 @@
+var x = 6;
+var y = 2;
+var soma = x + y;
+var sub = x - y;
+var divs = x / y;
+var mult = x * y;
+var expo = Math.pow(x, y);
+var mod = x % y;
+console.log("A soma : ".concat(soma));
+console.log("Subtra\u00E7\u00E3o ".concat(sub));
+console.log("Divis\u00E3o : ".concat(divs));
+console.log("Multiplica\u00E7\u00E3o : ".concat(mult));
+console.log("Pot\u00EAncia : ".concat(expo));
+console.log("Resto da divis\u00E3o: ".concat(mod));
